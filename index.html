@@ -11,19 +11,45 @@
 </head>
 <body class="bgParallax" data-speed="10">
 
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+
+        <div class="mx-auto">
+            <a href="#" class="navbar-brand">Navbar</a>
+        </div>
+    </div>
+</nav>
+
 <!--Primeiro painel-->
 <div class="container">
     <div id="welcome" class="bgParallax">
         <article id="textwelcome">
             <h1>VENHA PARA A FACULDADE ÚNICA</h1>
-            <p>A ÚNICA COM 50% DE DESCONTO NA SUA GRADUAÇÃO</p>
+            <p>A ÚNICA COM <strong>50% DE DESCONTO</strong> NA SUA GRADUAÇÃO</p>
         </article>
     </div>
     <div>
         <img id=imagemwelcome src="img/estudante.png" alt="some text">
     </div>
 </div>
-
 <!--Segundo painel-->
 <div id="diferenciais" class="bgParallax" data-speed="10">
         <h1 id="textodiferencial">CONHEÇA NOSSOS DIFERENCIAIS</h1>
@@ -32,7 +58,7 @@
 <!--Terceiro painel-->
 <div id="cursos" class="bgParallax" data-speed="15">
         <h1>ONDE NÓS ESTAMOS</h1>
-    <div id="box" class="container">
+    <div id="box">
     <div class="card">
         <div class="view overlay">
             <img class="card-img-top" src="img/ipatinga.jpg" alt="Card image cap">
@@ -75,8 +101,19 @@
 <div id="lead" class="bgParallax" data-speed="10">
     <article>
         <h1>CADASTRE-SE PARA MAIS INFORMAÇÕES</h1>
+        <form>
+        <input class="form-control form-control-sm" type="text" placeholder="Nome">
+        <input class="form-control form-control-sm" type="email" placeholder="Email">
+        </form>
+
     </article>
 </div>
+
+</div>
+<!--Footer-->
+
 <script type="text/javascript" src="js/parallax.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>

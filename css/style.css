@@ -27,6 +27,7 @@
 }
 #box{
     display: inline-flex;
+    margin: auto;
 }
 
 #imagemdiferencial{
@@ -34,9 +35,13 @@
     opacity: 0.87;
 }
 
+#diferenciais{
+    width:100%;
+}
+
 .card{
-    width: 90%;
-    margin-right: 20px;
+    width: 30%;
+    margin: auto;
     color:rgba(24, 64, 21, 1);
     font-family:Arial, 'Elsie', cursive, sans-serif;
 }
@@ -47,6 +52,9 @@ body{
                     rgba(24, 64, 21, 0.85), rgba(24, 64, 21, 0.85)), url(../img/prominas.jpg);
 }
 
+form{
+    width: 40%;
+}
 
 * {margin:0; padding: 0;}
 html, body {height:100%;}
