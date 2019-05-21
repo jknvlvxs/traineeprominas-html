@@ -1,0 +1,77 @@
+#welcome{
+    /*TEMPORARIO*/color:white;
+    font-family:Arial, 'Elsie', cursive, sans-serif;
+}
+#textwelcome{
+    float:left;
+    width: 50%;
+    text-align: center;
+    margin:0 auto;
+    padding:20% 0 0;
+
+}
+#imagemwelcome{
+    float:right;
+    opacity: 0.87;
+}
+
+#textodiferencial{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#teste{
+    width: 100%;
+    margin:0 auto;
+}
+#box{
+    display: inline-flex;
+}
+
+#imagemdiferencial{
+    float:right;
+    opacity: 0.87;
+}
+
+.card{
+    width: 90%;
+    margin-right: 20px;
+    color:rgba(24, 64, 21, 1);
+    font-family:Arial, 'Elsie', cursive, sans-serif;
+}
+
+body{
+    background-image:
+            linear-gradient(
+                    rgba(24, 64, 21, 0.85), rgba(24, 64, 21, 0.85)), url(../img/prominas.jpg);
+}
+
+
+* {margin:0; padding: 0;}
+html, body {height:100%;}
+
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {
+    font-family: 'Elsie', cursive;
+    color:#FFF;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    text-shadow:0 0 10px rgba(0,0,0,0.7);
+
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#lead, #diferenciais{
+    margin:0 auto;
+    padding:10% 0 0;
+    background-color:white;
+}
+
+.card-img-top{
+height:250px;
+}
