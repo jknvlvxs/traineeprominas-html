@@ -175,7 +175,7 @@ iframe {
   align-items: center;
   padding: 15px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover;
 }
 
@@ -311,10 +311,11 @@ iframe {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: right;
 }
 
 .wrap-btnform-form-btn {
+  float: right;
   width: 100%;
   display: block;
   position: relative;

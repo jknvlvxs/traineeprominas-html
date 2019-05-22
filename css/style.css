@@ -68,7 +68,6 @@ h5{
 .card2{
     margin: 0 auto;
     color:rgba(24, 64, 21, 1);
-    font-family:Arial, 'Elsie', cursive, sans-serif;
     padding-left: -20px;
     padding-right: -20px;
 }
@@ -102,6 +101,16 @@ body{
     background-image:
             linear-gradient(
                     rgba(199, 200, 60, 0.1), rgba(14, 40, 76, 0.2)), url(../img/contagem.jpg);
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #000;
 }
 
 
@@ -176,4 +185,14 @@ height:250px;
 
 #titulocursos{
     color: white;
+}
+
+*{
+    font-family:Arial, 'Elsie', cursive, sans-serif;
+}
+
+#modalExemplo{
+    color: black;
+    margin-top: 10%;
+    opacity: 1;
 }
