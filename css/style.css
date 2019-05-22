@@ -4,21 +4,21 @@
 }
 #textwelcome{
     float:left;
-    width: 50%;
+    width: 45%;
     text-align: center;
     margin:0 auto;
     padding:20% 0 0;
-
 }
 #imagemwelcome{
     float:right;
-    opacity: 0.87;
 }
 
 #textodiferencial{
     width: 100%;
     text-align: center;
     margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
 
 #teste{
@@ -40,28 +40,57 @@
 }
 
 #cursos{
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     margin-top: 5%;
 }
-.card{
+.card2{
     width: 30%;
     margin: auto;
     color:rgba(24, 64, 21, 1);
     font-family:Arial, 'Elsie', cursive, sans-serif;
 }
 
+.card1{
+    width: 85%;
+    margin:0 auto;
+    box-shadow: black;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+
 body{
     background-image:
             linear-gradient(
-                    rgba(24, 64, 21, 0.85), rgba(24, 64, 21, 0.85)), url(../img/prominas.jpg);
+                    rgba(199, 200, 60, 0.1), rgba(14, 40, 76, 0.2)), url(../img/contagem.jpg);
 }
+
 
 form{
     width: 40%;
+    float: right;
+    border: 20px;
+    border-color: black;
 }
 
-* {margin:0; padding: 0;}
-html, body {height:100%;}
+/** {margin:0; padding: 0;}*/
+html, body {height:100%; width: 100%}
 
 /** formata elementos que tem backgrounds parallax **/
 .bgParallax {
@@ -71,7 +100,7 @@ html, body {height:100%;}
     width: 100%;
     max-width: 1920px;
     position: relative;
-    text-shadow:0 0 10px rgba(0,0,0,0.7);
+    /*text-shadow:0 0 10px rgba(0,0,0,0.7);*/
 
     background-position: 50% 0;
     background-repeat: repeat;
@@ -82,8 +111,37 @@ html, body {height:100%;}
     margin:0 auto;
     padding:10% 0 0;
     background-color:white;
+    color:darkgreen;
+    padding-bottom: 12%;
+}
+
+#lead{
+    padding-top: 20px;
+}
+
+#diferenciais{
+    padding-bottom:3%;
 }
 
 .card-img-top{
 height:250px;
+    opacity: 1;
 }
+
+#carousel{
+    margin-top: -10%;
+}
+
+.imgdif{
+    height: 400px;
+}
+
+.container-fluid {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+i{
+    width: 20px;
+}
+
