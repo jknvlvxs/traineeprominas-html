@@ -28,7 +28,7 @@
 
 #conteudo{
     overflow-x: hidden;
-    /*TEMPORARIO (99?)*/width: 100%;
+    width: 100%;
     height: 90%;
     margin: 0 auto;
     padding-top: 6%;
@@ -98,6 +98,7 @@ p{
 .navbar{
     margin-bottom: 0;
 }
+
 #btnIndex{
     float: right;
     margin-top: 2%;
