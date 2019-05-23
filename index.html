@@ -18,10 +18,6 @@
 </head>
 <body class="bgParallax" data-speed="10">
 
-
-<!--Navbar-->
-
-
 <!--Primeiro painel-->
 <div class="container">
     <div id="welcome" class="bgParallax">
@@ -33,7 +29,7 @@
                 </article>
                 <div class="wrap-btnform p-l-55 p-r-55 p-t-65 p-b-54">
                     <form class="btnform-form validate-form">
-                        <span class="btnform-form-title p-b-49">VENHA <strong>REALIZAR SEU SONHO</strong> COM A GENTE!</span>
+                        <span class="btnform-form-title p-b-49">INVISTA NO <strong>SEU FUTURO</strong> COM A GENTE!</span>
                         <div class="wrap-input100 validate-input m-b-23" data-validate = "Informar o nome é necessário para o cadastro">
                             <input class="input100" type="text" name="nomecompleto" placeholder="Nome completo">
                             <span class="focus-input100"></span>
@@ -57,7 +53,6 @@
 </div>
 
 <!--Segundo painel-->
-<!--<div class="container">-->
 <div id="diferenciais" class="bgParallax" data-speed="10">
     <div id="carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -68,15 +63,16 @@
             <div class="carousel-item active">
                 <img class="imgdif d-block w-100" src="img/slide1.jpg" alt="Inovação na aprendizagem">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="slidetitle">Inovação na aprendizagem</h5>
-                    <p class="slidesub">A experiência da teoria aliada a aulas práticas com tecnologias que facilitam o processo de aprendizagem.</p>
+                    <h5 class="slidetitle">Estrutura e Inovação</h5>
+                    <p class="slidesub">Só a Única possui ótimos cursos e uma grade curricular abrangente e muito bem estruturada!          </p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="imgdif d-block w-100" src="img/slide2.jpg" alt="Mais opções para você">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="slidetitle">Inovação na aprendizagem</h5>
-                    <p class="slidesub">A experiência da teoria aliada a aulas práticas com tecnologias que facilitam o processo de aprendizagem.</p>
+                    <h5 class="slidetitle">Educação e Formação</h5>
+                    <p class="slidesub">
+                        A Única possui de longe a melhor metodologia, prezando pela organização e tornando o ensino mais intuitivo para VOCÊ!</p>
                 </div>
             </div>
 <!--            <div class="carousel-item">-->
@@ -133,7 +129,6 @@
     </div>
     </div>>
 </div>
-<!--</div>-->
 
 <!--Terceiro painel-->
 <div id="cursos" class="bgParallax" data-speed="15">
@@ -147,11 +142,11 @@
             </div>
             <div class="card-body">
                 <h4 class="card-title">Ipatinga</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">A Faculdade Única é uma instituição de ensino superior com 22 anos de atuação baseada na ética e na responsabilidade social de ampliar as possibilidades de ensino em todo o país.</p>
                 <div class="container-btnform-form-btn">
                     <div class="wrap-btnform-form-btn">
                         <div class="btnform-form-bgbtn"></div>
-                        <button id="btnIpatinga" class="btnform-form-btn grow btn-lg">Veja nossos cursos</button>
+                        <button id="btnIpatinga" value="Ipatinga" class="btnform-form-btn grow">Veja nossos cursos</button>
                     </div>
                 </div>
             </div>
@@ -165,11 +160,11 @@
         </div>
         <div class="card-body">
             <h4 class="card-title">Contagem</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Com uma equipe de colaboradores e professores altamente qualificados, o time da Única abraça o desafio de transformar vidas e colocar o aluno como protagonista de sua jornada acadêmica.</p>
             <div class="container-btnform-form-btn">
                 <div class="wrap-btnform-form-btn">
                     <div class="btnform-form-bgbtn"></div>
-                    <button id="btnContagem" class="btnform-form-btn grow">Veja nossos cursos</button>
+                    <button id="btnContagem" value="Contagem" class="btnform-form-btn grow">Veja nossos cursos</button>
                 </div>
             </div>
         </div>
@@ -183,11 +178,11 @@
         </div>
         <div class="card-body">
             <h4 class="card-title">Timóteo</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Atualmente, a Faculdade Única está sediada nas cidades mineiras de Ipatinga, Timóteo e Contagem e possui mais de 200 polos de Graduação e Pós-Graduação EaD em todo o Brasil.</p>
             <div class="container-btnform-form-btn">
                 <div class="wrap-btnform-form-btn">
                     <div class="btnform-form-bgbtn"></div>
-                    <button id="btnTimoteo" class="btnform-form-btn grow">Veja nossos cursos</button>
+                    <button id="btnTimoteo" value="Timóteo" class="btnform-form-btn grow">Veja nossos cursos</button>
                 </div>
             </div>
         </div>
@@ -203,15 +198,17 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Lista de cursos</h5>
+                <h5 class="modal-title btnform-form-title p-b-20" id="titulomodal">Lista de cursos em </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <li class="listmodal" id="item1"></li>
+                <li class="listmodal" id="item2"></li>
+                <li class="listmodal" id="item3"></li>
+                <li class="listmodal" id="item4"></li>
+                <li class="listmodal" id="item5"></li>
             </ul>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary btn-danger" data-dismiss="modal">Fechar</button>
@@ -220,7 +217,6 @@
     </div>
 </div>
 
-<!--Footer-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

@@ -1,5 +1,5 @@
 #welcome{
-    /*TEMPORARIO*/color:white;
+    color:white;
 }
 #textwelcome{
     color:white;
@@ -9,6 +9,7 @@
     margin:0 auto;
     padding:20% 0 0;
 }
+
 #imagemwelcome{
     float:right;
 }
@@ -18,11 +19,11 @@
     font-size: 70px;
 }
 
-
 #subtitulowelcome{
     color:white;
     font-size: 18px;
 }
+
 #titulodiferencial{
     color:darkgreen;
     width: 100%;
@@ -48,6 +49,7 @@ h5{
     width: 100%;
     margin:0 auto;
 }
+
 #box{
     margin: auto;
 }
@@ -65,6 +67,7 @@ h5{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 .card2{
     margin: 0 auto;
     color:rgba(24, 64, 21, 1);
@@ -86,6 +89,7 @@ h5{
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
 .grow {
     transition: all .2s ease-in-out;
 }
@@ -93,7 +97,6 @@ h5{
 .grow:hover {
     transform: scale(1.1);
 }
-
 
 body{
     overflow-x: hidden;
@@ -124,7 +127,6 @@ form{
 * {margin:0; padding: 0;}
 html, body {height:100%; width: 100%}
 
-/** formata elementos que tem backgrounds parallax **/
 .bgParallax {
     font-family: 'Elsie', cursive;
     color:#FFF;
@@ -132,7 +134,6 @@ html, body {height:100%; width: 100%}
     width: 100%;
     max-width: 1920px;
     position: relative;
-    /*text-shadow:0 0 10px rgba(0,0,0,0.7);*/
     background-position: 50% 0;
     background-repeat: repeat;
     background-attachment: fixed;
@@ -146,14 +147,12 @@ html, body {height:100%; width: 100%}
 
 #lead{
     padding-bottom: 4%;
-
 }
 
 #diferenciais{
     font-family:Arial, 'Elsie', cursive, sans-serif;
     padding-bottom:3%;
     padding:10% 0 0;
-
 }
 
 .card-img-top{
@@ -193,6 +192,12 @@ height:250px;
 
 #modalExemplo{
     color: black;
-    margin-top: 10%;
+    margin-top: 5%;
+    padding-top: 15%;
     opacity: 1;
+}
+
+.listmodal{
+    font-size: 16px;
+    margin-left: 2%;
 }
