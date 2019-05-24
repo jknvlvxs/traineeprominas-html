@@ -3,11 +3,11 @@ $(function(){
         var e = document.getElementById("pgSelect");
         var itemSelecionado = e.options[e.selectedIndex].value;
     if(itemSelecionado == 1){
-        window.location.assign("desafio1/autorizado");
+        window.location.assign("autorizado.html");
     }else if(itemSelecionado == 2){
-        window.location.assign("desafio1/errooperadora");
+        window.location.assign("errooperadora.html");
     }else{
-        window.location.assign("desafio1/errodesconhecido");
+        window.location.assign("errodesconhecido");
     }
 
     })
