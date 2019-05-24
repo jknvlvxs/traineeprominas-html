@@ -3,11 +3,11 @@ $(function(){
         var e = document.getElementById("pgSelect");
         var itemSelecionado = e.options[e.selectedIndex].value;
     if(itemSelecionado == 1){
-        window.location.assign("http://localhost:63342/Desafio_Semana1/autorizado.html");
+        window.location.assign("https://jknvlvxs.github.io/desafio1/autorizado");
     }else if(itemSelecionado == 2){
-        window.location.assign("http://localhost:63342/Desafio_Semana1/errooperadora.html");
+        window.location.assign("https://jknvlvxs.github.io/desafio1/errooperadora");
     }else{
-        window.location.assign("http://localhost:63342/Desafio_Semana1/errodesconhecido.html");
+        window.location.assign("https://jknvlvxs.github.io/desafio1/errodesconhecido");
     }
 
     })
